@@ -55,8 +55,8 @@ def create_zip_file(folder, zip_filename):
 # Function to send email with the ZIP file
 def send_email(recipient_email, zip_file_path):
     try:
-        sender_email = "ssoumya_be22@thapar.edu"  # Change to your email
-        sender_password = "Sjindal_13"  # Change to your password
+        sender_email = ""  # Change to your email
+        sender_password = ""  # Change to your password
 
         # Set up the email message
         msg = MIMEMultipart()
